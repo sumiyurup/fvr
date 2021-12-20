@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <!-- ======= navigation section =====-->
+    {% include about/header.html %}
+
+    <main id="main">
+      <!-- ======= about-hero ======= -->
+      {% include about/about-hero.html %}
+      <!-- End about hero -->
+
+      <!-- ======= box-section ======= -->
+      {% include about/box.html %}
+
+      <!-- ======= story-section ======= -->
+      {% include about/story.html %}
+
+      <!-- ======= core team-section ======= -->
+      {% include about/team.html %}
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    {% include footer.html %}
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    <div id="preloader"></div>
+
+    <!-- ======= Footer ======= -->
+    {% include script.html %}
+    <!-- End Footer -->
+  </body>
+</html>

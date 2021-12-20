@@ -1,0 +1,69 @@
+- quastion: Why should I trust you?
+  answer: We have been a medical service provider and a patient. We have seen what’s been provided and what is missing. We believe in transparency, accessibility, security and use of technology to improve the outcomes.
+  time: 200
+  id: faq2
+
+- quastion: What’s so special about you?
+  answer: Everything! We know your health matters to you, your family and your loved ones. Whether you are paying for your own healthcare coverage, or it’s being provided by your company – we’ve got you covered.
+  time: 300
+  id: faq3
+
+- quastion: What make you better than other e-patient providers?
+  answer: We want to transform the way you think and feel about seeing a doctor, and we plan to do this in multiple ways. The first thing we are going to do is make it affordable and accessible to all. Secondly, we are passionate about providing excellent quality of care by helping you make more informed decisions with better access to your health data.
+  time: 400
+  id: faq4
+
+- quastion: What do you have to offer that I don’t already get?
+  answer: Firstly, a subscription that covers both virtual and physical clinic visits, commonly needed medications, and common lab tests. We also have proprietary technology that aids the doctor starting from the assessment right through the consultation process. This translates to reliable patient outcomes each time you visit one of our doctors, and a much higher degree of transparency of health data provided to you. As an employer, you will be equipped with the right information to engage your employees about the healthcare themes affecting them.
+  time: 500
+  id: faq5
+
+- quastion: How do you save money?
+  answer: By having access to an E-patient provider on subscription, there’s a cap in how much you spend on GP visits, medication, and lab tests.
+  time: 600
+  id: faq6
+
+- quastion: How much money can I save?
+  answer: Consult a doctor as many times as you want from less than 80 sen a day. Save up to 80% of your employee healthcare cost from as low as RM288 per employee a year.
+  time: 700
+  id: faq7
+
+- quastion: How do you improve outcomes?
+  answer: We significantly reduce the cost of primary care for corporates and consumers based on an affordable subscription model with better access to health data.
+  time: 800
+  id: faq8
+
+- quastion: How do you convince my employees to use you?
+  answer: We have packaged the FEV3R services to give employees the highest quality of health data and the most convenient access possible. They will be given access to see a doctor virtually and in person based on a network that is second to none and an application that’s built with the employees accessibility in mind. The level of health data they will have access to is only equalled by the gold standard doctors we employ and the security promise we make in protecting their data.
+  time: 900
+  id: faq9
+
+- quastion: How long does it take for my employees to see results?
+  answer: Immediately after their first visit, you will see the difference. We provide the best digital experience with universal access to health data for patients and doctors, while enhancing the patient journey and quality of care at an affordable cost.
+  time: 1000
+  id: faq10
+
+- quastion: I like it, how do we start? Step-by-step.
+  answer: Make contact with our customer service by writing to enquiries@fev3r.com or visit our website and click on the contact us link. One of our agents will guide you through the onboarding process.
+  time: 1100
+  id: faq11
+
+- quastion: Can you customize your service according to my needs?
+  answer: Depends on type of customization required. Please speak to our customer service team for more information
+  time: 1200
+  id: faq12
+
+- quastion: Tell me about statistics and reports.
+  answer: Our proprietary employer analytics are designed to enable the right healthcare engagements with your employees. The data is primarily designed to enable healthcare communications in a way that is highly relevant to the employee. We also protect the employee privacy by ensuring that all health information is anonymised and aggregated in an appropriate manner.
+  time: 1300
+  id: faq13
+
+- quastion: Data security?
+  answer: We take confidentiality and your health information security very seriously. Our platform employs end-to-end encryption and monitoring to keep your information secure. Our patients' data and medical records are compliant with the Personal Data Protection Act (PDPA). These records are only accessible to healthcare providers directly involved in the patient's care, and to support internal processes.
+  time: 1400
+  id: faq14
+
+- quastion: Your licenses? Which ministry are you under? How do I hold you accountable?
+  answer: Our doctors are licensed by the Malaysian Medical Council and follow the gold standard of telemedicine guidelines in planning and delivering care. Our clinics/partner clinics have all the required licensing/permits, including any telehealth and pharmaceutical licenses (where required).
+  time: 1500
+  id: faq15

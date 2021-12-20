@@ -1,0 +1,79 @@
+<section id="include">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-6 include-content">
+        <h2>What Makes Us Different</h2>
+        <ul>
+          <li>
+            <img src="/assets/img/icons/tick-2.svg" alt="" />We do not replace
+            physical doctor visits, but instead, improve the outcome.
+          </li>
+          <li>
+            <img src="/assets/img/icons/tick-2.svg" alt="" />Our network of 120
+            owned/partner clinics and 250 doctors.
+          </li>
+          <li>
+            <img src="/assets/img/icons/tick-2.svg" alt="" />Our referrals to
+            best-of-class specialists.
+          </li>
+          <li>
+            <img src="/assets/img/icons/tick-2.svg" alt="" />The security and
+            privacy of health data.
+          </li>
+          <li>
+            <img src="/assets/img/icons/tick-2.svg" alt="" />The entire patient
+            journey is cashless.
+          </li>
+
+          <li>
+            <img src="/assets/img/icons/tick-2.svg" alt="" />We dispense
+            prescriptions and conduct lab tests.
+          </li>
+
+          <div class="more">
+            <li>
+              <img src="/assets/img/icons/tick-2.svg" alt="" />You can consult a
+              doctor at any time for any concerns, even when you are not sick.
+            </li>
+            <li>
+              <img src="/assets/img/icons/tick-2.svg" alt="" />Medicine is
+              delivered to your doorstep.
+            </li>
+            <li>
+              <img src="/assets/img/icons/tick-2.svg" alt="" />A lifetime access
+              to your health data.
+            </li>
+            <li>
+              <img src="/assets/img/icons/tick-2.svg" alt="" />An intuitive
+              mobile app for anytime, anywhere accessibility to doctors.
+            </li>
+            <li>
+              <img src="/assets/img/icons/tick-2.svg" alt="" />Universal access
+              to your personal health data lets doctors make faster and better
+              diagnosis
+            </li>
+            <li>
+              <img src="/assets/img/icons/tick-2.svg" alt="" />AI technology
+              that will improve quality and continuity of care.
+            </li>
+          </div>
+          <p class="myBtn" id="myBtn">See more...</p>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-6 include-img">
+        <img src="/assets/img/why-us.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <script>
+    var myBtn = document.getElementById("myBtn");
+
+    myBtn.onclick = function () {
+      document.body.classList.toggle("display");
+      if (document.body.classList.contains("display")) {
+        const element = document.getElementById("myBtn");
+        element.innerHTML = "See Less...";
+      }
+    };
+  </script>
+</section>

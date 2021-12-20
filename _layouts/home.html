@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <!-- ======= navigation section =====-->
+    {% include header.html %}
+    <!-- ======= Hero Section ======= -->
+    {% include home/hero-section.html %}
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      {% include home/about.html %}
+      <!-- End About Section -->
+
+      <!-- ======= Services Section ======= -->
+      {% include home/services.html %}
+      <!-- End Services Section -->
+
+      <!-- ======= Offer Section ======= -->
+      {% include home/offer.html %}
+      <!-- End Offer Section -->
+
+      <!-- ======= CTA Section ======= -->
+      {% include home/call-to-action.html %}
+      <!-- End CTA Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    {% include footer.html %}
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    <div id="preloader"></div>
+
+    <!-- ======= Footer ======= -->
+    {% include script.html %}
+    <!-- End Footer -->
+  </body>
+</html>

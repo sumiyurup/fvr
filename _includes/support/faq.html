@@ -1,0 +1,43 @@
+<!-- ======= Frequently Asked Questions Section ======= -->
+<section id="faq" class="faq">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq-list">
+      <ul>
+        <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+          <a
+            data-bs-toggle="collapse"
+            class="collapse"
+            data-bs-target="#faq-list-1"
+            >Who are you? <i class="bx bx-chevron-down icon-show"></i
+            ><i class="bx bx-chevron-up icon-close"></i
+          ></a>
+          <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+            <p>
+              We are a health-tech company that delivers affordable e-patient
+              services through a healthcare-as-a-service platform
+            </p>
+          </div>
+        </li>
+        {% for faq in site.data.faq %}
+        <li data-aos="fade-up" data-aos-delay="200">
+          <a
+            data-bs-toggle="collapse"
+            data-bs-target="#{{ faq.id }}"
+            class="collapsed"
+            >{{ faq.quastion }} <i class="bx bx-chevron-down icon-show"></i
+            ><i class="bx bx-chevron-up icon-close"></i
+          ></a>
+          <div id="{{ faq.id }}" class="collapse" data-bs-parent=".faq-list">
+            <p>{{ faq.answer }}</p>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End Frequently Asked Questions Section -->
